@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
+  "_moduleAliases": {
+    "@output": "/utils/outputs/output.js"
+  },
+  "scripts": {
+    "postinstall": "link-module-alias"
+  },
+  "dependencies": {
+    "node": "^19.1.0"
+  }
+}
