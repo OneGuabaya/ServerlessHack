@@ -9,6 +9,9 @@
     "postinstall": "link-module-alias"
   },
   "dependencies": {
+    "@middy/core": "^3.6.2",
+    "@middy/http-json-body-parser": "^3.6.2",
+    "middy": "^0.36.0",
     "node": "^19.1.0"
   }
 }
